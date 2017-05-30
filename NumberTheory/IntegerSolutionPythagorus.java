@@ -14,7 +14,11 @@ import java.math.BigInteger;
 import java.util.InputMismatchException;
 
 /**
+<<<<<<< HEAD
  *
+=======
+ * Ashesh Vidyut (Drift King) *
+>>>>>>> c6aee27e327e96a58c4583ac08325c3bed0bb43f
  */
 /*
     Given r find the integral solution to x ^ 2 + y ^ 2 = r ^ 2 or

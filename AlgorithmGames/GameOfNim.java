@@ -14,7 +14,11 @@ import java.math.BigInteger;
 import java.util.InputMismatchException;
 
 /**
+<<<<<<< HEAD
  *
+=======
+ * Ashesh Vidyut (Drift King) *
+>>>>>>> c6aee27e327e96a58c4583ac08325c3bed0bb43f
  */
 /*
     Imparital Game in which both the player has equal opportunity to move, no restriction.

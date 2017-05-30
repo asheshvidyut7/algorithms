@@ -7,7 +7,11 @@ import java.io.OutputStreamWriter;
 import java.util.Arrays;
 
 /**
+<<<<<<< HEAD
  *
+=======
+ * Ashesh Vidyut (Drift King) *
+>>>>>>> c6aee27e327e96a58c4583ac08325c3bed0bb43f
  */
 /*
     A Maze is given as N*N binary matrix of blocks where source block is the upper left most block i.e.

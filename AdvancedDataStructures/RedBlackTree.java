@@ -1,7 +1,11 @@
 package AdvancedDataStructures;
 
 /**
+<<<<<<< HEAD
  *
+=======
+ * Ashesh Vidyut (Drift King) *
+>>>>>>> c6aee27e327e96a58c4583ac08325c3bed0bb43f
  */
 /*
     Left leaning red black tree is representation of 2-3 tree.

@@ -7,7 +7,11 @@ import java.io.OutputStreamWriter;
 import java.util.Scanner;
 
 /**
+<<<<<<< HEAD
  *
+=======
+ * Ashesh Vidyut (Drift King) *
+>>>>>>> c6aee27e327e96a58c4583ac08325c3bed0bb43f
  */
 /*
     Binary exponentiation is a technique that allows you to build any number of n -th degree for
@@ -32,6 +36,7 @@ public class BinaryExponentiation {
         }
         return ans;
     }
+<<<<<<< HEAD
     public long binPowR(long a, long b, int mod){
         if(b == 0)
             return 1l;
@@ -43,6 +48,8 @@ public class BinaryExponentiation {
             return (bby2 % mod * bby2 % mod) % mod;
         }
     }
+=======
+>>>>>>> c6aee27e327e96a58c4583ac08325c3bed0bb43f
     public long binPow2(long a, long b, int mod){
         String binb = Long.toBinaryString(b);
         long pow [] = new long[binb.length()];

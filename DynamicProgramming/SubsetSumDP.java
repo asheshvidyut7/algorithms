@@ -8,7 +8,11 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
 /**
+<<<<<<< HEAD
  *
+=======
+ * Ashesh Vidyut (Drift King) *
+>>>>>>> c6aee27e327e96a58c4583ac08325c3bed0bb43f
  */
 /*
     Given a set of non-negative integers, and a value sum, determine if there is a subset of the
@@ -50,8 +54,13 @@ public class SubsetSumDP {
     public static void main(String[] args) {
         try {
             SubsetSumDP ss = new SubsetSumDP();
+<<<<<<< HEAD
             int set[] = {1, 2};
             System.out.println(ss.subsetSum(set, 3));
+=======
+            int set[] = {3, 34, 4, 12, 5, 2};
+            System.out.println(ss.subsetSum(set, 9));
+>>>>>>> c6aee27e327e96a58c4583ac08325c3bed0bb43f
         }
         catch (Exception e) {
             e.printStackTrace();
