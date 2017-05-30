@@ -32,9 +32,10 @@ public class BinaryIndexedTree2D {
         add(t, r, c, -get(t, r, c) + value);
     }
     public static void main(String[] args) {
-        int[][] t = new int[10][20];
+        int[][] t = new int[30][30];
         add(t, 0, 0, 1);
+        add(t, 1, 2, 10);
         add(t, 9, 19, -2);
-        System.out.println(-1 == sum(t, 0, 0, 9, 19));
+        System.out.println(9 == sum(t, 0, 0, 9, 19));
     }
 }

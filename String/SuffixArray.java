@@ -26,7 +26,7 @@ import java.util.Arrays;
         2. Searching a String
             *** Time Complexity *** O(n^2 log n ) pre processing O(mLogn)
         3. Number of Unique Sub Strings in a String
-            "Basically it length of suffix - the lenght of lcp with previous"
+            "Basically it length of suffix - the length of lcp with previous"
             uniq_sub_strings = |s| - S[1] + 1
             // thus we count all prefixes of the first suffix
             for i = 2 to N
