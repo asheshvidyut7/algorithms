@@ -6,7 +6,11 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
 /**
+<<<<<<< HEAD
+ *
+=======
  * Ashesh Vidyut (Drift King) *
+>>>>>>> c6aee27e327e96a58c4583ac08325c3bed0bb43f
  */
 /*
     Given a sequence, find the length of the longest palindromic subsequence in it.

@@ -6,7 +6,11 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
 /**
+<<<<<<< HEAD
+ *
+=======
  * Ashesh Vidyut (Drift King) *
+>>>>>>> c6aee27e327e96a58c4583ac08325c3bed0bb43f
  */
 /*
     Segment Tree can also be used for find sum of numbers in the given range.

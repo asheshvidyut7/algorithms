@@ -1,6 +1,10 @@
 package DynamicProgramming;
 /**
+<<<<<<< HEAD
+ *
+=======
  * Ashesh Vidyut (Drift King) *
+>>>>>>> c6aee27e327e96a58c4583ac08325c3bed0bb43f
  */
 /*
     Given a Binary Tree, find size of the Largest Independent Set(LIS) in it.

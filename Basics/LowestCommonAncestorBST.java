@@ -6,7 +6,11 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
 /**
+<<<<<<< HEAD
+ *
+=======
  * Ashesh Vidyut (Drift King) *
+>>>>>>> c6aee27e327e96a58c4583ac08325c3bed0bb43f
  */
 /*
     The LCA of n1 and n2 in T is the shared ancestor of n1 and n2 that is located farthest from the root.

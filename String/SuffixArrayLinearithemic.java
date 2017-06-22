@@ -5,7 +5,11 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 /**
+<<<<<<< HEAD
+ *
+=======
  * Ashesh Vidyut (Drift King) *
+>>>>>>> c6aee27e327e96a58c4583ac08325c3bed0bb43f
  */
 /*
     Manber and Myers algorithm for construction of Suffix Array

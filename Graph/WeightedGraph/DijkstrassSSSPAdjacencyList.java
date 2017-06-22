@@ -5,7 +5,11 @@ import java.io.InputStreamReader;
 import java.util.*;
 
 /**
+<<<<<<< HEAD
+ *
+=======
  * Ashesh Vidyut (Drift King) *
+>>>>>>> c6aee27e327e96a58c4583ac08325c3bed0bb43f
  */
 class EdgeC{
     public int to;
