@@ -29,7 +29,7 @@ public class RodCut {
     public static void main(String[] args) {
         try {
             RodCut rc = new RodCut();
-            int arr[] = {1, 5, 8, 9, 10, 17, 17, 20};
+            int arr[] = {3, 5, 8, 9, 10, 17, 17, 20};
             System.out.println(rc.rodcut(arr, 8));
         }
         catch (Exception e) {
