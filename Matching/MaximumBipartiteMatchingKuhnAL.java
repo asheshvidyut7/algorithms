@@ -40,13 +40,8 @@ public class MaximumBipartiteMatchingKuhnAL {
         for( int v : graph[u]){
             int u2 = matching[v];
             // if v(preffered job of u) is not assigned to any one else
-            if(u2 == -1){
+            if(u2 == -1 || (!vis[u2] && assignJob(graph, u2, matching, vis))){
                 matching[u] = v;
-                return true;
-            }
-            // if the preffered job is assigned to some other person - u2
-            // then try to assign u2 some other job which he prefers
-            else if(!vis[u2] && assignJob(graph, u2, matching, vis)){
                 return true;
             }
         }
