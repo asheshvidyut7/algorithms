@@ -52,8 +52,7 @@ public class MaximumBipartiteMatchingKuhnAL {
         int matchar[] = new int[n2];
         Arrays.fill(matchar, -1);
         for (int i = 0; i < n1; i++) {
-            boolean vis[] = new boolean[n1];
-            if(assignJob(graph, i, matchar, vis)){
+            if(assignJob(graph, i, matchar, new boolean[n1])){
                 ++matching;
             }
         }
