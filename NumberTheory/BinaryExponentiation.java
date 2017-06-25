@@ -64,12 +64,24 @@ public class BinaryExponentiation {
         }
         return ans;
     }
+    private long binPowRec(long a, long b, int mod) {
+        if (b == 0 || a == 1) {
+            return 1L;
+        }
+        long res = binPowR(a, b / 2, mod);
+        res = ((res % mod) * (res % mod)) % mod;
+        if (b % 2 != 0) {
+            res = (res * a) % mod;
+        }
+        return res % mod;
+    }
     public static void main(String[] args) {
         try {
             BinaryExponentiation be = new BinaryExponentiation();
             int mod = (int) 1e9 + 7;
             System.out.println(be.binPow(120, 132, mod));
             System.out.println(be.binPow2(120, 132, mod));
+            System.out.println(be.binPowRec(120, 132, mod));
         } catch (Exception e) {
             e.printStackTrace();
         }
