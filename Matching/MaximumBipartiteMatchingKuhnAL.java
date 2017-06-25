@@ -41,7 +41,7 @@ public class MaximumBipartiteMatchingKuhnAL {
             int u2 = matching[v];
             // if v(preffered job of u) is not assigned to any one else
             if(u2 == -1 || (!vis[u2] && assignJob(graph, u2, matching, vis))){
-                matching[u] = v;
+                matching[v] = u;
                 return true;
             }
         }
