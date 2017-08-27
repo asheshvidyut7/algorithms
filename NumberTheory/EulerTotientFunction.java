@@ -29,13 +29,13 @@ import java.util.Scanner;
 
  */
 public class EulerTotientFunction {
-    public int[] phi(int upto){
-        int [] phiar = new int[upto + 1];
+    private long[] phi(int upto){
+        long [] phiar = new long[upto + 1];
         boolean primear[] = new boolean[upto + 1];
         Arrays.fill(primear, true);
         primear[0] = primear[1] = false;
         for(int i = 0 ; i < upto + 1 ; i++){
-            phiar[i] = i;
+            phiar[i] = (long)i;
         }
         for(int i = 0; i < upto + 1; i++){
             if(primear[i]){
